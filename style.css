@@ -33,7 +33,20 @@ header .en-tete .barre{
     display: flex;
     justify-content: space-evenly;
     border-radius: 10px;
+}
 
+button{
+    /* margin-top: 2rem; */
+    /* position: relative; */
+    margin-top: 2%;
+    float: right;
+    width: 20%;
+    height: 50px;
+    color: #fff;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
 .icon{
@@ -54,19 +67,7 @@ header .en-tete .barre{
     color: white;
     width: 220px;
 }
-.en-tete  button{
-    /* margin-top: 2rem; */
-    position: relative;
-    margin-top: 2%;
-    float: right;
-    width: 150px;
-    height: 8%;
-    color: #fff;
-    background: orange;
-    border: none;
-    border-radius: 5px;
-    font-size: 17px;
-}
+
 
 
 .mkl img{
@@ -90,7 +91,7 @@ header .en-tete .barre{
     padding: 5px;
     position: relative;
     top: -230px;
-    left: 420px;
+    left: 460px;
     z-index: 1; 
 }
 
@@ -678,7 +679,7 @@ header .en-tete .barre{
     .blanc{
         width: 80%;
         margin-top: 40%;
-        margin-left: -90%;
+        margin-left: -105%;
     }
     
     .social-icon ul{
@@ -722,7 +723,7 @@ header .en-tete .barre{
     }
 
     .about-section{
-        height: 105%;
+        height: 100%;
     }
 
     .all{
@@ -731,7 +732,13 @@ header .en-tete .barre{
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top: 80%;
+        margin-top: 100%;
+        gap: 10px;
+    }
+
+    .all .progress{
+        width: 100PX;
+        height: 100px;
     }
 
     .title-exp{
