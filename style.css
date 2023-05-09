@@ -10,21 +10,20 @@ body{
 
 /* HEADER START */
 header{
-    background-image: url('image/plan.jpg');
+    background-image: url('/image/plan.jpg');
     background-size: cover;
     width: 100%;
     height: 500px;
 }
 header .en-tete{
-    /* padding: 0rem 10rem; */
+    
     width: 80%;
     padding-top: 4rem;
     margin: auto;
-    /* z-index: 1; */
+   
 }
 
 header .en-tete .barre{
-    
     background-color: orange;
     width: 100%;
     height: 25%;
@@ -35,8 +34,6 @@ header .en-tete .barre{
 }
 
 button{
-    /* margin-top: 2rem; */
-    /* position: relative; */
     margin-top: 2%;
     float: right;
     width: 20%;
@@ -84,9 +81,6 @@ button{
     background-color: rgb(252, 249, 249);
     width: 500px;
     height: 500px;
-    /* margin-left: 26%;
-    margin-top: 12%; */
-    /* margin: 50px 0px 0px; */
     padding: 5px;
     position: relative;
     top: -230px;
@@ -118,7 +112,6 @@ button{
 }
 
 .social-icon ul{
-    /* transform: translate(-50%, -50%); */
     display: flex;
     margin-left: 24.5%;
     margin-top: 3%;
@@ -142,8 +135,6 @@ button{
 }
 
 .social-icon ul li{
-    /* position: relative; */
-    /* display: block; */
     width: 35px;
     height: 35px;
     border-radius: 50%; 
@@ -208,7 +199,7 @@ button{
 
 .portfolio-grid{
         padding: 10px;
-        max-width: 1400px;
+        max-width: 1500px;
         background: #fff;
         display: grid;
         grid-gap: 10px;
@@ -452,7 +443,6 @@ button{
 /* EDUCATION */
 .education-section{
     width: 100%;
-    height: 115vh;
     margin-top: 6%;
 }
 
@@ -490,7 +480,6 @@ button{
     border-radius: 50%;
     position: relative;
     background-color: #E3F2CB;
-    
     left: -18px;
     top: -5px; 
   }
@@ -501,7 +490,6 @@ button{
     left: 10px;
     height: 20px;
     width: 20px;
-
     border-radius: 50%;
     background-color: orange;
   }
@@ -515,7 +503,6 @@ button{
     border-radius: 50%;
     position: relative;
     background-color: #E3F2CB;
-    
     left: -18px;
     top: 230px;
   }
@@ -526,7 +513,6 @@ button{
     left: 10px;
     height: 20px;
     width: 20px;
-
     border-radius: 50%;
     background-color: orange;
   }
@@ -600,7 +586,7 @@ button{
 
 /* section start */
 .tempo{
-    background-image: url('/portfolio-3.webp');
+    background-image: url('/image/gallery/portfolio-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -613,7 +599,7 @@ button{
 .degree{
     display: flex;
     margin: 7%;
-    color: rgb(13, 13, 13);
+    color: #fff;
 }
 
 .degree h3{
@@ -639,20 +625,6 @@ button{
     font-weight: 700;
     color: #777;
 }
-/* @media screen and (max-width: 850px){
-    .barre{
-        flex-wrap: wrap;
-        padding-bottom: 20%;
-        margin-bottom: 20%;
-    }
-
-    button{
-        margin-top: -15%;
-        margin-right: 9%;
-    }
-
-    
-} */
 
 @media screen and (max-width: 996px) {
     .barre{
@@ -778,7 +750,7 @@ button{
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top: 100%;
+        margin-top: 80%;
         gap: 10px;
     }
 
