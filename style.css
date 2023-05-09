@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    outline: 1px solid #000;
 }
 
 /* HEADER START */
@@ -71,8 +70,8 @@ button{
 
 
 .mkl img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-left: 8px;
     position: relative;
@@ -208,89 +207,75 @@ button{
 
 
 .portfolio-grid{
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(6 , 1fr);
-    grid-gap: 15px;
-    grid-auto-rows: 300px;
+        padding: 10px;
+        max-width: 1400px;
+        background: #fff;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(6 , 1fr));
+        grid-auto-rows: 300px;
+        grid-auto-flow: dense;
 }
+
 
 .portfolio-photo-1{
     grid-column: 1 / 3;
-    background-image: url('portfolio-1.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .portfolio-photo-2{
     grid-column: 3 / 5;
     grid-row: 3 / 1;
-    background-image: url('portfolio-2.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 .portfolio-photo-3{
     grid-column: 5 / 7;
-    background-image: url('portfolio-3.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 .portfolio-photo-4{
-    background-image: url('portfolio-4.webp'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-column: 2 / 1;
 } 
 
 .portfolio-photo-5{
-    background-image: url('portfolio-5.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-column: 2 ;
 } 
 
 .portfolio-photo-6{
     grid-column: 5 / 7;
-    background-image: url('portfolio-6.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .portfolio-photo-7{
     grid-column: 1 / 3;
-    grid-row: 3 / 5;
-    background-image: url('portfolio-7.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    
 }
 
 .portfolio-photo-8{
     grid-column: 3 / 5 ;
-    grid-row: 3 / 5;
-    background-image: url('portfolio-8.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .portfolio-photo-9{
-    grid-column: 5 / 7;
-    background-image: url('portfolio-9.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-column: 5 / 6;
+    
 }
 
 .portfolio-photo-10{
-    background-image: url('portfolio-10.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-column: 3 / 5;
+    grid-row: 3 / 1;
 }
 
 .portfolio-photo-11{
-    background-image: url('portfolio-11.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    grid-column: 6 / 7;
 }
 
+.portfolio-grid div img{
+    width: 100%;
+    height: 100%;
+}
 /* PORTFOLIO SECTION END */
 
 /* ABOUT SECTION START */
@@ -306,10 +291,10 @@ button{
     justify-content: center;
 }
 
-.title{
-    width: 50%;
+.title-about{
+    width: 80%;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .about-inline{
@@ -320,7 +305,7 @@ button{
 }
 
 .about-inline p{
-    font-size: 20px;
+    font-size: 18px;
     color: #666666;
 }
 .about{
@@ -614,8 +599,8 @@ button{
 /* education end */
 
 /* section start */
-.temp{
-    background-image: url('/portfolio-9.webp');
+.tempo{
+    background-image: url('/portfolio-3.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -628,7 +613,7 @@ button{
 .degree{
     display: flex;
     margin: 7%;
-    color: white;
+    color: rgb(13, 13, 13);
 }
 
 .degree h3{
@@ -646,7 +631,6 @@ button{
 .colorlib{
     background-color: rgb(16, 16, 80);
     text-align: center;
-    height: 5vh;
     padding: 20px;
 }
 
@@ -678,12 +662,17 @@ button{
 
     .blanc{
         width: 80%;
-        margin-top: 40%;
+        margin-top: 43%;
         margin-left: -105%;
     }
     
+    button{
+        font-size: 14px;
+        width: 35%;
+    }
+
     .social-icon ul{
-        margin-left: 15%;
+        margin-left: 8%;
     }
 
     .container{
@@ -700,9 +689,65 @@ button{
         margin-right: 20%;
     }
 
-    .portfolio-grid{
-        flex-wrap: wrap;
+    .portfolio-grid img{
+        width: 5px;
+        height: 5px;
     }
+
+    .portfolio-photo-1{
+        grid-column: span 1;
+        
+    }
+    
+    .portfolio-photo-2{
+        grid-column: span 1;
+        grid-row: span 1;
+       
+    }
+    
+    .portfolio-photo-3{
+        grid-column: span 1;
+       
+    }
+    
+    .portfolio-photo-4{
+        grid-column: span 1;
+    } 
+    
+    .portfolio-photo-5{
+        grid-column: span 1;
+    } 
+    
+    .portfolio-photo-6{
+        grid-column: span 1;
+        
+    }
+    
+    .portfolio-photo-7{
+        grid-column: span 1;
+    
+        
+    }
+    
+    .portfolio-photo-8{
+        grid-column: span 1 ;
+        
+    }
+    
+    .portfolio-photo-9{
+        grid-column: span 1;
+        
+    }
+    
+    .portfolio-photo-10{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .portfolio-photo-11{
+        grid-column: span 1;
+    }
+
 
     .title{
         display: flex;
@@ -724,6 +769,7 @@ button{
 
     .about-section{
         height: 100%;
+        font-size: 10px;
     }
 
     .all{
@@ -742,7 +788,7 @@ button{
     }
 
     .title-exp{
-        width: 100%;
+        width: 90%;
     }
 
     .exp-inline{
@@ -757,14 +803,36 @@ button{
     .container-edu{
         display: flex;
         flex-direction: column;
-    }
-
-    .title-edu{
-        width: 100%;
+        height: 60%;
     }
 
     .edu-inline{
-        width: 100%;
+        font-size: 10px;
+    }
+
+    .course{
+        font-size: 10px;
+    }
+
+    .valide{
+        font-size: 10px;
+    }
+
+    .title-edu{
+        width: 80%;
+    }
+
+    .container-item{
+        font-size: 10px;
+    }
+
+    .title-about{
+        width: 80%;
+    }
+
+    .edu-inline{
+        width: 90%;
+        height: 10%;
     }
 
     .jaune{
