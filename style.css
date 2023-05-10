@@ -10,7 +10,7 @@ body{
 
 /* HEADER START */
 header{
-    background-image: url('/image/plan.jpg');
+    background-image: url('image/plan.jpg');
     background-size: cover;
     width: 100%;
     height: 500px;
