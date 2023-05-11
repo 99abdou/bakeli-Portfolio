@@ -78,12 +78,13 @@ button{
 
 .blanc{
     background-color: rgb(252, 249, 249);
-    width: 500px;
+    width: 50%;
     height: 500px;
+    margin: auto;
     padding: 5px;
     position: relative;
     top: -230px;
-    left: 460px;
+    /* left: 160px; */
     z-index: 1; 
 }
 
@@ -633,7 +634,8 @@ button{
     .blanc{
         width: 80%;
         margin-top: 43%;
-        margin-left: -100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     button{
