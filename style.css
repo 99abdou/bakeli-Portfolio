@@ -584,21 +584,20 @@ button{
 /* education end */
 
 /* section start */
-.tempo{
-    background-image: url('/image/portfolio-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .jaune{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('image/plan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .degree{
     display: flex;
     margin: 7%;
-    color: #fff;
+    color: #000;
 }
 
 .degree h3{
@@ -634,7 +633,7 @@ button{
     .blanc{
         width: 80%;
         margin-top: 43%;
-        margin-left: -105%;
+        margin-left: -90%;
     }
     
     button{
@@ -805,7 +804,9 @@ button{
         width: 90%;
         height: 10%;
     }
-
+    .tempo{
+        background-image: url();
+    }
     .jaune{
         display: flex;
         flex-direction: column;
